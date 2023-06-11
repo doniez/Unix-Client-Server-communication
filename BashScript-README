@@ -1,0 +1,34 @@
+Bash is one of the most popular scripting tools available in Unix environments. It stands for "Bourne Again Shell" and is a powerful tool for Linux users and system administrators.
+
+The "ServerClient.sh" file is a bash script that needs to be executed in our program and exists in the "execute" directory. After navigating to the directory in the terminal, the following commands need to be executed
+chmod +x ServerClient.sh
+./ServerClient.sh
+y running these commands, the program will automatically launch.
+
+Procedure:
+
+The script will create the executables.
+Start the server in one terminal window.
+Launch the client in another terminal window, with a total of 5 clients, which means 5 questions and 5 responses separated by sleep() commands of a few milliseconds.
+Fetch the server's process ID (PID) and interrupt it using the command kill -2.
+The server and test will end.
+This sequence of steps outlines the process for executing the "ServerClient.sh" script and running the server and client components with multiple clients sending questions and receiving responses.
+
+----frensh---
+Bash est l’un des outils de scripting les plus populaires disponibles sous Unix.
+C’est l’acronyme de Bourne Again Shell. C’est un outil puissant pour tout
+utilisateur de Linux ou administrateur système.
+Le fichier « ServeurClient.sh » c’est le fichier bash à exécuter dans notre
+programme et existe dans le dossier execute.
+Après avoir ouvrir le dossier dans le terminal il faut lancer les commandes
+suivates :
+Chmod +x ServerClient.sh
+./ServerClient.sh
+Et le programme va se lancer automatiquement.
+ Démarche
+Le fichier va créer les exécutables
+Lancer le serveur dans un terminal
+Lancer le client dans une autre fenêtre de terminal avec un total de 5 clients
+donc 5 questions et 5 réponse séparé par des sleep() de quelque ms
+Fetch le pid de serveur puis l’interrompre par un kill -2
+Fin de serveur et fin de test.
