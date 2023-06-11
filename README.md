@@ -9,6 +9,8 @@ The client also informs the server, using the same signal (SIGUSR1), when it has
 
 Note: The use of signals, pipes, and process IDs suggests interprocess communication in a Unix-like environment.
 
+------- frensh-----------
+
 Un serveur attend des questions de clients dans un tube fifo1.
 Une question correspond à la demande d’envoi de n nombres tirés au
 sort par le serveur (n est un nombre aléatoire compris entre 1 et NMAX
